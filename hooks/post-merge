@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+
+# do the interesting stuff here
+puts "The post-merge hook is running."
