@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
 
-# do the interesting stuff here
-puts "The post-merge hook is running."
+# run new Rails migrations if any exist
+rake db:migrate
