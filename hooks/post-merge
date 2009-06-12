@@ -1,5 +1,5 @@
-#!/usr/bin/env ruby
+#!/bin/bash
+echo "Latest three commits"
+git log --pretty=oneline -n3
 
-
-# run new Rails migrations if any exist
-rake db:migrate
+# maybe can do some Rails specific stuff like rake db:migrate
