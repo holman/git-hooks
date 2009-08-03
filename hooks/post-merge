@@ -1,5 +1,7 @@
 #!/bin/bash
-echo "Latest three commits"
-git log --pretty=oneline -n3
-
-# maybe can do some Rails specific stuff like rake db:migrate
+echo ""
+echo ""
+echo -e "\e[37;40m RECENT COMMIT MESSAGES \e[0m"
+git log --pretty=oneline -n5
+echo ""
+echo ""
