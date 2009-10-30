@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ""
 echo ""
-echo -e "\e[37;40m RECENT COMMIT MESSAGES \e[0m"
-git log --pretty=oneline -n5
+echo -e "\033[1m RECENT COMMITS \033[0m"
+git log --pretty=oneline --abbrev-commit --decorate --relative-date -n5
 echo ""
 echo ""
