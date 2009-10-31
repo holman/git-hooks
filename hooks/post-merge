@@ -2,6 +2,6 @@
 echo ""
 echo ""
 echo -e "\033[1m RECENT COMMITS \033[0m"
-git log --pretty=oneline --abbrev-commit --decorate --relative-date -n5
+git log -n5 --pretty=format:"%Cgreen%h%d%Creset %an - %s (%ar)"
 echo ""
 echo ""
